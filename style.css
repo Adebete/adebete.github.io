@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: red;
+}
+
+.container-row {
+    border: 1px solid white;
+}
+
+.btn {
+    padding: 5px;
+    min-width: 30px;
+}
+
+.btn-ac {
+    min-width: 60px !important;
+}
+
+.input {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        background: blue;
+    }
+}
+
+@media only screen and (max-width: 259px) {
+    .container {
+        background: green;
+    }
+}
